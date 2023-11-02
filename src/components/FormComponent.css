@@ -1,0 +1,36 @@
+#myForm{
+    width: 60%;
+    margin: auto;
+}
+#myForm input[type=text],
+#myForm select,
+#myForm textarea
+{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#sendForm{
+    display: block;
+    padding: 5px 10px;
+    background-color: aqua;
+    border: 1px solid aqua;
+    color: brown;
+    cursor: pointer;
+}
+.user_info{
+    margin: auto;
+    padding: 4px;
+    width: 80%;
+    background-color: rgb(52, 58, 58);
+    color: rgb(255, 255, 255);    
+}
+.user_info .bio{    
+    margin-top: 10px;
+    width: 80%;
+    background-color: rgb(48, 107, 158);
+    margin: auto;
+    padding: 8px;
+}
